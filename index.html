@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form class="date__form">
+        <div class="year__select">
+            <div class="select__block">
+                <label >Выберите минимальную дату периода</label><br><select class="select__start-year" ></select>
+            </div>
+            <div class="select__block">
+                <label >Выберите максимальную дату периода</label><br><select class="select__end-year" ></select>
+            </div>
+            
+            
+        </div>
+        <div class="month__select">
+            <div class="month__min">
+                <label >Выберите начало периода</label><br><select class="select__min-start-year" ></select>
+                <select class="select__min-start-month" ></select>
+            </div>
+            <div class="month_max">
+                <label >Выберите конец периода</label><br><select class="select__max-end-year" ></select>
+                <select class="select__max-end-month" ></select>
+            </div>
+            
+        </div>
+        <div class="form__btn">Принять</div>
+        <div class="form__text"></div>
+    </form>
+    <div class="frame">
+        <div class="slider__btns">
+            <div class="btn btn__year active">Все года</div>
+            <div class="btn btn__month">Месяца</div>
+        </div>
+        <div class="slider">
+            <div class="timeline">
+                
+                    <div class="point__l"><div class="point__l-text-date"></div></div>
+                    
+            
+                
+                <div class="date__range"></div>
+                <div class="point__r">
+                    <div class="point__r-text-date"></div>
+                </div>
+            </div>
+            <div class="dateline__box">
+                <div class="dateline"></div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    
+    <script src="js/form_script.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
